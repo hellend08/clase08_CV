@@ -48,9 +48,6 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
-    /* position: fixed;
-    z-index: 1000;
-    width: 98%; */
 }
 
 nav section {
@@ -78,7 +75,6 @@ nav section {
     background-size: cover;
     border-radius: 50%;
     margin-block: 1.5rem;
-    /* opacity: calc(1); */
 }
 
 .menu {
@@ -108,7 +104,6 @@ main {
 main.index section {
     border: solid rgb(255, 229, 33);
     margin: 1.5rem;
-    /* margin-top: 5rem; */
     height: 300px;
 }
 
@@ -187,4 +182,19 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-inline: 1rem;
+}
+
+.up {
+    width: 40px;
+    height: 40px;
+    /* border-color: #FFFFFF; */
+    border-width: 0;
+    background-color: rgb(255, 229, 33);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 13px;
 }
